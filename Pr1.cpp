@@ -15,7 +15,7 @@ struct Menu {
 
         cout <<"Название: " << name << "  Цена: " << price << "Руб  Время приготовления: " << cookTime << "мин" << endl;
     }
-};
+}
 
 // Функция для разбиения(парсинга) строки и создания объекта Menu
 Menu parseMenu(const string& line) {
