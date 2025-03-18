@@ -12,11 +12,8 @@ struct Menu {
     string cookTime;  
 
     void print() const {
-<<<<<<< HEAD
+
         cout <<"Название: " << name << "  Цена: " << price << "Руб  Время приготовления: " << cookTime << "мин" << endl;
-=======
-        cout << name <<" " << price <<"p " << cookTime <<"min" << endl;
->>>>>>> e69e757f7145c32d9272a7e1440c58acac096efb
     }
 };
 
@@ -33,12 +30,9 @@ int main() {
 
     ifstream file("menu_data.txt");//открываем файл с инфой
     if (!file) {
-<<<<<<< HEAD
+
         cout << "Файл не найден!" << endl;//если файла нет выводим ошибку
-=======
-        cout << "Net faila!" << endl;//если файла нет выводим ошибку
->>>>>>> e69e757f7145c32d9272a7e1440c58acac096efb
-        return 1;
+       return 1;
     }
 
     vector<Menu> menuItems;//создаем вектор для сохранения инфы из файла
